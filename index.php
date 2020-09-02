@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,6 +10,8 @@
 </head>
 
 <body>
+
+
 
 	<h1>Trabajamos para hacer tus sueños realidad</h1>
 	<p><strong>Es un placer conocerte</strong> nuestra empresa quiere hacer realidad todos tus proyectos. </p>
@@ -75,4 +78,4 @@
  <br/><br/><br/><br/> <h3>Si quieres ver nuestros trabajos entra al siguiente enlace</h3>
  <a href="file:///C:/Users/HP/Desktop/Lenguajes%20para%20la%20web/PROYECTO/Dise%C3%B1os.html">Diseños</a>
 </body>
-</html>
+<?php ?>
