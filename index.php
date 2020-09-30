@@ -38,7 +38,7 @@
 			<h1>Bienvenido</h1></br></br></br>
 			<h1>Trabajamos para hacer tus sueños realidad</h1></br></br></br>
 			<h1><p><strong>Es un placer conocerte</strong> nuestra empresa esta comprometida contigo </br>para realizar	todos tus proyectos personales. </p>
-			</br></br><P>Nos encargamos de hacer la instlación, remodelación, diseño, venta y fabricación de cocinas, closets, muebles, bibliotecas,
+			</br></br><P>Nos encargamos de hacer la instalación, remodelación, diseño, venta<br> y fabricación de cocinas, closets, muebles, bibliotecas,
 				 puertas, armarios, repisas, etc</P></h1></br></br></br>
 			<a href="Disenos.html"><h2>Si estas interesado en ver nuestra galeria de proyectos da clic aquí</h2></a></br></br>
 
