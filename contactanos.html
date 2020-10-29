@@ -1,78 +1,108 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>DuberCarpinteria</title>
-<meta charset="UTF-8">
-<link rel="icon" type="image/png" href="images/favicon2.png">
-<meta name="description" content="Instalación, remodelación, diseño, venta, fabricación y pintar  cocinas, closets, muebles, bibliotecas, puertas, armarios, repisas"/>
-<meta name="keywords" content="cocinas, cocinas integrales, closets, muebles, bibliotecas, armarios, puertas, intalación"/>
-<link href="estilos.css"  rel="stylesheet" type="text/css">
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>DuberCarpinteria</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <meta name="description" content="Instalación, remodelación, diseño, venta, fabricación y pintar  cocinas, closets, muebles, bibliotecas, puertas, armarios, repisas"/>
+    <meta name="keywords" content="cocinas, cocinas integrales, closets, muebles, bibliotecas, armarios, puertas, intalación"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+        
+          <nav class="navbar   navbar-expand   navbar-light border border-dark" style=" width:100%; border-radius:7px; height: 50px;"> 
+        
+            <a class="navbar-brand" href="images/favicon.png"><img src="images/favicon.png" style="width:45px; height:40px;"> </a>
+            
+            <!-- Links -->
+            <ul class="navbar-nav">
 
-	<div class="container">
+              <li class="nav-item">
+                <a class="nav-link" href="inicio.html"><h5 style="margin-top: 13px;">Inicio</h5></a>
+              </li>
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown"><h5 style="margin-top: 13px;">Diseños</h5></a>
+               
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="cocinas.html">Cocinas</a>
+                  <a class="dropdown-item" href="escritorios.html">Escritorios</a>
+                  <a class="dropdown-item" href="closets.html">Closets</a>
+                  <a class="dropdown-item" href="repisas.html">Repisas</a>
+                  <a class="dropdown-item" href="muebles.html">Muebles</a>
+                  <a class="dropdown-item" href="disenos.html">Todos</a>
+                </div>
+              </li>
 
-	<nav class="navegator">
-		<ul class="menu">
-			<li><a href="index.php">Inicio</a></li>
-			<li><a href="Disenos.html">Diseños</a>
-				<ul class="submenu">
-					<li><a href="#">Cocinas</a></li>
-					<li><a href="#">Closets</a></li>
-					<li><a href="#">Muebles</a></li>
-					<li><a href="#">Escritorios</a></li>
-					<li><a href="Disenos.html">Todos</a></li>
-				</ul>
-			</li>
-			<li><a href="cotizacion.html">Haz tu cotización</a></li>
-			<li><a href="materiales.html">Materiales</a></li>
-			<li><a href="contactanos.html">Contactanos</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="cotizacion.html"><h5 style="margin-top: 8%;">Haz tu cotización</h5></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactanos.html"><h5 style="margin-top: 13px;">Contáctanos</h5></a>
+              </li>
+            </ul>
+          </nav>
+<br><br>
+
+<h3 style="text-align: center;">Por favor llena el siguiente formulario:</h3><br>
+<form action="/action_page.php">
+    <div class="form-group">
+      <label for="nombre">Escribe tu nombre completo:</label>
+      <input type="nombre" class="form-control" id="nombre">
+    </div>
+    <div class="form-group">
+      <label for="correo">Digita tu dirección de correo electrónico:</label>
+      <input type="correo" class="form-control" id="correo">
+    </div>
+    <div class="form-group">
+      <label for="numero">Escribe tu número de celular:</label>
+      <input type="numero" class="form-control" id="numero">
+    </div>
+    <div class="form-group">
+      <label for="description">Haz una breve descripción de lo que necesitas:</label>
+      <input type="description" class="form-control" id="description">
+    </div>
+   <button type="submit" class="btn btn-success"  style="border-radius:7px;"><H5>Enviar</H5></button>
+  </form>
+  <br><br>
+
+  <h4>Gracias por llenar los datos, pronto nos contáctaremos contigo.</h4>
+<br><br>
+<br>
+<br>
 
 
-		</ul>
-	</nav>
-	
-	<div class="formulario">
-	</br></br></br></br></br></br><h1> Formulario de Registro </h1></br>
 
-		<form method="post" action="refistrar.php">
+        <!-- footer-->
 
-		Nombre: <input type=" text" name="Nombre"><br>
-		Apellido: <input type=" text" name="Apellido"><br>
-		Dirección: <input type="text" name="Direccion"><br> 
-		Sexo: <br>
-		<Input type="radio" name="genero" value="Masculino">Masculino<br> 
-		<Input type="radio" name="genero" value="Femenino">Femenino<br> 
+      <button type="button" class="btn btn-info disabled" style="width: 100%; border-radius: 10px;">
+        <div class="footer">	
+        
+          <h5>Para más información encuentranos en nuestras redes sociales:<br>Correo electrónico: duargoza@gmail.com<br>
+        Número de contacto: 3148319669 <br> </h5><br>
+          
+          <a href="https://www.facebook.com/people/Duber-Gonzalez/100009120304876" target="_blank">
+          <img src="images/fb.png" width="10%"height="10%"></a>
+          <img src="images/wtsp.png" width="10%"height="10%"> </a>
+          <img src="images/ins.png" width="10%"height="10%"> </a> <br><br>
+          © todos los derechos reservados
+        </footer></div>
+      </button>
+  <br>
+  <br>
+  <br>
+  </div>
 
-		<label>Indique su edad:</label><br>
-
-		<input type="number" name="edad"><br>
-
-		Trabaja como  :
-		<input type="checkbox" name="trabajo1" value="Trabajador independiente">Trabajador independiente<br>
-		<input type="checkbox" name="trabajo2" value="Trabajador en empresa">Trabajador en empresa<br>
-
-		<label>Indique su correo:</label><br>
-
-		<input type="email" name="correo"><br> 
-		<label>Ingrese su número celular:</label><br>
-
-		<input type="tel" name="celular" pattern="[0-9]{3}[0-9]{7}"><br>
-		Que le gustaria que nosotros hicieramos por usted: <br>
-		<textarea rows="6" cols="50">Ingrese la descripcion aqui.
-		</textarea><br>
-		<input type="submit" value="Guardar">
-		<input type="reset" value="Limpiar" ><br>
-		<input type="submit" value="Enviar"></br></br></br>
-	</div>
-
-<footer>  <h4>Para mas información encuentranos en:<br><br>Correo electrónico: duargoza@gmail.com<br><br>Número de contacto: 3148319669 <br> </h4><br>
-			
-	<a href="https://www.facebook.com/people/Duber-Gonzalez/100009120304876" target="_blank">
-	<img src="images/facebook.jpg" width="10%"height="10%" ></a>
-	<img src="images/wtsp.png" width="10%"height="10%"> </a>
-	<img src="images/instagram.png" width="10%"height="10%"> </a> <br>
-	© todos los derechos reservados
-</footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
+</html>
