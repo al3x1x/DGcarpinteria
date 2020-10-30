@@ -24,7 +24,7 @@
             <ul class="navbar-nav">
 
               <li class="nav-item">
-                <a class="nav-link" href="inicio.html"><h5 style="margin-top: 13px;">Inicio</h5></a>
+                <a class="nav-link" href="inicio.php"><h5 style="margin-top: 13px;">Inicio</h5></a>
               </li>
               <!-- Dropdown -->
               <li class="nav-item dropdown">
