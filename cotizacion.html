@@ -24,7 +24,7 @@
             <ul class="navbar-nav">
 
               <li class="nav-item">
-                <a class="nav-link" href="inicio.html"><h5 style="margin-top: 13px;">Inicio</h5></a>
+                <a class="nav-link" href="index.php"><h5 style="margin-top: 13px;">Inicio</h5></a>
               </li>
               <!-- Dropdown -->
               <li class="nav-item dropdown">
@@ -57,21 +57,30 @@
 
   
 <h3 style="text-align: center;">Por favor llena el siguiente formulario:</h3><br>
-<form action="/action_page.php">
-    
+<form action="" id="formcoti">
+<p><h3>Nota:</h3><h4>En caso de que solo quieras hacer una cotizacón rapida no necesitas llenar los campos</h4></p><br>
 
     <div class="form-group">
-   <label for="nombre"> nombre completo:</label>
-      <input type="nombre" class="form-control" id="nombre">
+   <label for="nombre"><h5> Nombre completo:</h5></label>
+      <input type="nombre" class="form-control" id="nick">
     </div>
     <div class="form-group">
-      <label for="correo">dirección de correo electrónico:</label>
-      <input type="correo" class="form-control" id="correo">
+      <label for="correo"><h5>Dirección de correo electrónico: </h5></label>
+      <input type="correo" class="form-control" id="email">
     </div>
     <div class="form-group">
-      <label for="numero">Numero de contacto:</label>
-      <input type="numero" class="form-control" id="numero">
+      <label for="numero"><h5>Numero de contacto:</h5></label>
+      <input type="number" class="form-control" id="num">
     </div>
+
+    <div>
+    <label for><h5>Selecciona cuantos metros cuadrados necesitas: </h5></label>  
+    <button class="btn-success" style="border-radius: 7px; width: 150px; "> <select id="metros" placeholder="Selecciona una opción" >
+    
+      </select>
+    </button> <br><br>
+    </div>
+
     <div class="form-group">
       <label for="description">Haz una breve descripción de lo que necesitas:</label>
       <input type="description" class="form-control" id="description">
@@ -82,13 +91,14 @@
     <label for="residencia">Ciudad de residencia </label>
     <input type="residencia" class="form-control" id="residencia">
   </div>
-
+<br>
 <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="Acepto manejo de datos">
   <label class="form-check-label" for="defaultCheck1">
     Acepto manejo de datos personales
   </label>
 </div>
+<br>
 
 
    <button type="submit" class="btn btn-success"  style="border-radius:9px;"><H5>Cotizar</H5></button>
